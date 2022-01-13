@@ -1,35 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>郑银龙的博客主页</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon"
+		href="https://i1.hdslb.com/bfs/face/f5525d85be86123e8e2464a5ad20769d2961a94d.jpg@150w_150h.jpg"
+		type="image/x-icon">
+	<style>
+		body,
+		.profile {
+			margin: 0 auto;
+			background-color: #000000;
+			color: white;
+			font-family: 微软雅黑;
+		}
+		body{
+			vertical-align: bottom;
+		}
+		.profile {
+			display: inline-block;
+			max-width: 320px;
+			font-size: 18px;
+			height: 100%;
+			border-right: 4px solid #8d8a8a;
+		}
+
+		#logo,
+		#name {
+			display: block;
+			margin: 20px auto;
+		}
+		#logo{
+			border: 4px solid skyblue;
+			border-radius: 500px;
+		}
+		#name {
+			margin-left: 10px;
+			font-weight: bolder;
+			font-size: 30px;
+		}
+
+		.profile>span {
+			display: inline-block;
+			margin: 10px;
+		}
+		#footer-time-label {
+			font-family: 华文彩云;
+		}
+		#cprt{
+			font-size: smaller;
+			margin-bottom: 0;
+		}
+		iframe{
+			display: inline-block;
+			max-width: 900px;
+			width: 80%;
+			height: 560px;
+			padding-top: 10px;
+
+		}
+	</style>
+	<script>
+		window.onload = () => {
+
+			var time_label = document.getElementById("footer-time-label");
+			setInterval(function () {
+				time_label.innerText = new Date().toLocaleString();
+			}, 100);
+		}
+
+	</script>
+	<title>郑银龙的博客主页</title>
 </head>
+
 <body>
-<p align='center'>
-  <a href="#"><img src="https://github-readme-stats.vercel.app/api?username=ZhengYinloong&show_icons=true&count_private=true&theme=dark" width="350"></a>
-</p>
-	<p>
-  <span>CopyRight&copy; 2022 zhengyinloong</span>
-  <span id="footer-time-label">time</span>
-			<style>
-				#footer-time-label {
-					color: #000000;
-					font-family: 华文彩云;
-					font-size: xx-large;
-				}
-			</style>
-			<script>
-				var time_label = document.getElementById("footer-time-label");
-				setInterval(function () {
-					time_label.innerText = new Date().toLocaleString();
-				}, 100);
-			</script>
-</p>
-<p align='center'>
-  📫 How to reach me: <a href='mailto:zhengyinloong@126.com'>zhengyinloong@126.com</a>
-</p>
+	<div class="profile">
+		<img id="logo" src="https://i1.hdslb.com/bfs/face/f5525d85be86123e8e2464a5ad20769d2961a94d.jpg@150w_150h.jpg"
+			alt="logo" width="250" />
+		<p id="name">ZhengYinloong</p>
 
+		<span>🏡 china</span>
+		<span>🔗<a href="http://zhengyinloong.github.io">http://zhengyinloong.github.io</a></span>
+		<span>📬<a href='mailto:zhengyinloong@126.com'>zhengyinloong@126.com</a></span>
+		<span>🕘<span id="footer-time-label">time</span></span>
+		<span id="cprt">CopyRight&copy; 2022 zhengyinloong</span>
+	</div>
 
+<iframe src="blogtest.html" frameborder="0"></iframe>
 </body>
-</html>
 
+</html>
