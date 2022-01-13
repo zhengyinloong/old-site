@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--方式一 style 标签内部样式-->
+    <style>
+        h1{
+            color: orange;
+        }
+    </style>
+	<!--方式三 link标签导入外部CSS文件-->
+    <link rel="stylesheet" href="../CSS/style1.css">
+    <title>CSS学习--语法</title>
+</head>
+<body>
+  <h1 align='center'>
+  Hi there 👋 I'm ZhengYinloong 👨‍💻
+</h1>
+<p align='center'>a university student from China.</p>
+<p align='center'>
+  <a href="#"><img src="https://github-readme-stats.vercel.app/api?username=ZhengYinloong&show_icons=true&count_private=true&theme=dark" width="350"></a>
+</p>
+<p align='center'>
+  📫 How to reach me: <a href='mailto:zhengyinloong@126.com'>zhengyinloong@126.com</a>
+</p>
+<p align='center'><a href="blog1.md" target="_blank">blog1</a></p>
+
+<p>
+  <span>CopyRight&copy; 2022 zhengyinloong</span>
+  <span id="footer-time-label">2022/1/14上午12:27:12</span>
+			<style>
+				#footer-time-label {
+					color: #000000;
+					font-family: 华文彩云;
+					font-size: xx-large;
+				}
+			</style>
+			<script>
+				var time_label = document.getElementById("footer-time-label");
+				setInterval(function () {
+					time_label.innerText = new Date().toLocaleString();
+				}, 100);
+			</script>
+</p>
+<h1>Hello,world!!!</h1>
+<!--方式二 行内样式-->
+<h2 style="color: red">Hello,world!!!&COPY;&copy;</h2>
+<h3>Hello,world!!!</h3>
+<h4>HTML -- Hyper Text Markup Language 超文本</h4>
+</body>
+</html>
+
