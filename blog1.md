@@ -1,0 +1,3 @@
+# blog test ...<a href="./index.html" style="color:orange;">back to home page</a>
+# This is a blog for ...
+ma ~mah
