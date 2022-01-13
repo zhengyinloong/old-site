@@ -10,4 +10,4 @@
 <p align='center'>
   📫 How to reach me: <a href='mailto:zhengyinloong@126.com'>zhengyinloong@126.com</a>
 </p>
-<a align='center' href="./blog1.md" target="_blank">blog1</a>
+<p align='center'><a href="blog1.md" target="_blank">blog1</a></p>
