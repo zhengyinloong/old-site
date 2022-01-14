@@ -1,3 +1,0 @@
-# blog test ...<a href="http://zhengyinloong.github.io" target="_blank">back to home page</a>
-# This is a blog for ...
-ma ~mah
